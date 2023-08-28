@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+  .custom-text {
+    padding: 10px;
+    background-color: #3498db;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+
+  .active {
+    background-color: #1f618d;
+    transform: translateY(2px);
+  }
+</style>
+</head>
+<body>
+
+<p class="custom-text" id="myText">Click Me</p>
+
+<script>
+const text = document.getElementById("myText");
+
+text.addEventListener("click", function() {
+  text.classList.toggle("active");
+});
+</script>
+
+</body>
+</html>

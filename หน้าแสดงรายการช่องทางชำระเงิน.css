@@ -1,0 +1,215 @@
+body {
+    background: #dbdbdb;
+}
+
+/* Remove border from the entire table */
+table {
+    border-collapse: collapse;
+    border: none;
+}
+
+/* Remove border from table header cells */
+th,
+td {
+    border: none;
+}
+
+/* Optional: Add some padding to cells for better spacing */
+th,
+td {
+    padding: 10px !important;
+}
+
+td {
+    padding-top: 20px !important;
+}
+
+/* Add bottom border to the table header */
+thead {
+    border-bottom: 2px solid #ccc;
+    /* Adjust the color and thickness as needed */
+}
+
+.a-n {
+    text-decoration: none;
+}
+
+.sidebar {
+    width: auto;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 1000;
+    /* ป้องกันให้ Sidebar ถูกคุมโดยองค์ประกอบอื่นบนหน้าเว็บ */
+    padding: 20px;
+    background-color: #ffffff !important;
+    /* สีพื้นหลังของ Sidebar #f8f9fa*/
+}
+
+.main-content {
+    margin-left: 125px;
+    /* Adjust this value to match the width of your sidebar */
+    padding: 20px;
+}
+
+.card1 {
+    cursor: pointer;
+    width: 125px !important;
+    height: 90px !important;
+    margin-bottom: 5px;
+    color: #787b88;
+}
+
+.cardcol {
+    padding-left: 1px !important;
+}
+
+.card1 :hover {
+    color: rgb(243, 87, 30);
+}
+
+.c1 {
+    color: rgb(243, 87, 30) !important;
+}
+
+.c2 {
+    color: rgb(243, 87, 30) !important;
+    text-decoration: underline;
+}
+
+.navbar {
+    position: fixed;
+    width: 100%;
+    margin-left: 290px;
+    z-index: 1000;
+    /* Adjust this value if needed */
+}
+
+.t-h {
+    margin-top: 30px;
+    cursor: pointer;
+}
+
+.t-h :hover {
+    color: rgb(243, 87, 30);
+    text-decoration: underline;
+}
+
+.box1 {
+    width: 98%;
+    position: sticky;
+    margin-left: 290px;
+    z-index: 1000;
+    margin-top: 85px;
+}
+
+.box2 {
+    width: 98%;
+    position: sticky;
+    margin-left: 290px;
+    z-index: 1000;
+    margin-top: 25px;
+}
+
+.cb1 {
+    display: flex !important;
+}
+
+.cl {
+    padding-left: 5px;
+}
+
+.bb {
+    margin-left: 110px;
+    margin-top: 35px;
+    color: #787b88;
+    background-color: #d8d8d9;
+}
+
+.bbc {
+    color: #ffffff;
+    background-color: rgb(243, 87, 30) !important;
+}
+
+.bb2 {
+    margin-left: 5px !important;
+
+}
+
+.bb1 {
+    margin-left: 5px !important;
+    color: #787b88;
+    background-color: #d8d8d9;
+}
+
+/* Style for "ใช้งาน" text as a badge */
+td[headers="statusColumn"] {
+    margin-top: 20px !important;
+    padding-top: 10px !important;
+    text-align: center;
+    display: inline-block;
+    padding: 0.25em 0.5em;
+    font-size: 75%;
+    font-weight: bold;
+    line-height: 1;
+    color: #246cb4;
+    background-color: #8abaea;
+    /* Change to the desired background color */
+    border-radius: 0.25rem;
+}
+
+.bbb {
+    color: rgb(243, 87, 30);
+    background-color: #d8d8d9;
+    border: #d8d8d9;
+}
+
+.pagination {
+    display: inline-block;
+}
+
+.pagination a {
+    color: rgb(79, 79, 79);
+    float: left;
+    padding: 8px 5px;
+    text-decoration: none;
+}
+.pa{
+    width: 35px;
+    text-align: center;
+    
+       padding: 0.25em 0.5em;
+    font-size: 75%;
+    font-weight: bold;
+
+    background-color: #c9c9c9;
+    /* Change to the desired background color */
+    border-radius: 0.25rem;
+}
+.pa1{
+    margin-top: 5px;
+    font-size: 75%;
+    width: 25px;
+    text-align: center;
+    font-weight: bold;
+    color: #ffffff !important;
+    background-color:  rgb(243, 87, 30);;
+    /* Change to the desired background color */
+    border-radius: 0.25rem;
+}
+.bottom-buttons {
+    position: absolute;
+    bottom: 40px; /* ปรับตำแหน่งตามต้องการ */
+    width: 100%;
+    text-align: center;
+
+}
+.bb3{
+    color: #787b88;
+    background-color: #d8d8d9;
+}
+.pow-c{
+    padding-right: 5px;
+    color: #da1010 !important;
+}
